@@ -1,0 +1,14 @@
+.container {
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.container-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 200px;
+  gap: 20px;
+  margin-bottom: 4%;
+}
